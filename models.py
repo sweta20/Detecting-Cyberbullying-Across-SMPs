@@ -116,7 +116,7 @@ def get_model(m_type,inp_dim, vocab_size, embed_size, num_classes, learn_rate):
     elif m_type == 'lstm':
         model = lstm_keras(inp_dim, vocab_size, embed_size, num_classes, learn_rate)
     elif m_type == "blstm":
-        model = blstm(inp_dim)
+        model = blstm(inp_dim, vocab_size, embed_size, num_classes, learn_rate)
     elif m_type == "blstm_attention":
         model = blstm_atten(inp_dim, vocab_size, embed_size, num_classes, learn_rate)
     else:
