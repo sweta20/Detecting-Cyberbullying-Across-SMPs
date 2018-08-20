@@ -10,7 +10,7 @@ Please download the dataset and unzip at data/.
 
 We have also used two different kind of embeddings for initialization which can be found at the mentioned links.
 
-- [Sentiment Specific word embeddings (SSWE)](https://github.com/atebbifakhr/twitter-sentiment-analysis/blob/master/vectors/sswe-u.txt)
+- [Sentiment Specific word embeddings (SSWE)](http://ir.hit.edu.cn/~dytang/paper/sswe/embedding-results.zip)
 - [GLoVe](https://nlp.stanford.edu/projects/glove/)
 
 
