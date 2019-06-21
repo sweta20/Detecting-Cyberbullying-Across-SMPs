@@ -31,7 +31,3 @@ We have also used two different kind of embeddings for initialization which can 
  - Transfer Learning.ipynb : We used transfer learning to check if the knowledge gained by DNN models on one dataset can be    used to improve cyberbullying detection performance on other datasets. The code for the same is available in this file.
 
 To know more about the architecture used and results, please read our paper [here](https://arxiv.org/pdf/1801.06482.pdf).
-
-## Authors
-
-* **Sweta Agrawal** 
