@@ -31,3 +31,13 @@ We have also used two different kind of embeddings for initialization which can 
  - Transfer Learning.ipynb : We used transfer learning to check if the knowledge gained by DNN models on one dataset can be    used to improve cyberbullying detection performance on other datasets. The code for the same is available in this file.
 
 To know more about the architecture used and results, please read our paper [here](https://arxiv.org/pdf/1801.06482.pdf).
+
+
+### Reproducibility Study 
+
+1. Maral Dadvar, and Kai Eckert. "[Cyberbullying Detection in Social Networks Using Deep Learning Based Models; A Reproducibility Study.](https://arxiv.org/pdf/1812.08046.pdf)" arXiv preprint arXiv:1812.08046 (2018).
+2. Aymé Arango, Jorge Pérez, and Barbara Poblete. "[Hate Speech Detection is Not as Easy as You May Think: A Closer Look at Model Validation.](https://users.dcc.uchile.cl/~jperez/papers/sigir2019.pdf)" Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval. ACM, 2019. 
+3. Chris Emmery, Ben Verhoeven, Guy De Pauw, Gilles Jacobs, Cynthia Van Hee, Els Lefever, Bart Desmet, Véronique Hoste, Walter Daelemans. "[Current Limitations in Cyberbullying Detection: On Evaluation Criteria, Reproducibility, and Data Scarcity."](http://arxiv.org/abs/1910.11922) ArXiv:1910.11922 [Cs], Oct. 2019. arXiv.org. [[Code]](https://github.com/cmry/amica)
+
+In [2] and [3], the authors discuss the limitations of our oversampling method (Section 4.2) in that, the way oversampling is currently handled may lead to overfitting. We found their claims/criticisms valid and important but we haven't conducted any new experiments to explicitely test and improve upon the limitations. Based on these studies, we no longer claim that our models provide state of the art results on the dataset untill further experiments are carried to study the effect of oversampling on the representations learned. We do believe that our paper and repository still serves as a useful resourse for modelling cyberbullying detection and understanding transferability between platforms. We suggest our viewers to look at these papers to be more aware of the limitations. 
+ 
